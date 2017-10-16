@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* -------------------- BUTTON -------------------- */
+.button {
+    display: block;
+    width: 100%;
+    margin:20px auto;
+    padding:15px 20px;
+    font-size:18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background:#B23E3E;
+    color:#fff;
+}
+/* -------------------- BUTTON -------------------- */
+
+/* -------------------- FORM -------------------- */
+form {
+    width:85%;
+    margin: auto;
+    background: #fff;
+    padding:35px;
+    border-radius: 10px;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* -------------------- FORM -------------------- */
+
+/* -------------------- HEADER -------------------- */
+header {
+    padding: 2% 2% 2% 2%;
+    margin: 0;
+    height: 5%;
+    width: 96%;
+    background-color: #B23E3E;
+    color: floralwhite;
+    overflow: hidden;
+}
+
+header h1 {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    font-size: 5em;
+}
+
+header h2 {
+    margin: 0;
+    margin-left: 5%;
+    padding-right: 5%;
+    font-size: 1.6em;
+}
+/* -------------------- HEADER -------------------- */
+
+
+main {
+    width: 100%;
+}
+
+/* -------------------- CARDS -------------------- */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    align-content: center;
+
+    width: 70%;
+    padding: 5%;
+
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+/* -------------------- CARDS -------------------- */
+
+
+/* --------------- MAIN PAGE CONTENT --------------- */
+.content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-top: 17%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.content_container {
+    font-size: 1.5em;
+    padding: 2%;
+    line-height: 150%;
+    color: floralwhite;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#presentation {
+    background-image: url('res/movie_theater.jpg');
+}
+
+#comfort {
+    background-image: url('res/movie_theater.jpg');
+}
+
+#gourmet {
+    background-image: url('res/popcorn.jpg');
+}
+
+.end {
+    padding: 2%;
+}
+
+#booking_form {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* --------------- MAIN PAGE CONTENT --------------- */
+
+
+/* -------------------- NAVBAR -------------------- */
+ul.topnav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    display: inline-block;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #B23E3E;
+}
+
+@media screen and (max-width: 800px) {
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+/* -------------------- NAVBAR -------------------- */
+
+
+/* --------------------- CART --------------------- */
+
+
+
+.cart-table {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 320px;
+    margin: auto;
+    margin-top: 3%;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:23px;
+    font-weight: 100;
+    padding:24px;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+}
+
+th:first-child {
+    border-top-left-radius:3px;
+}
+
+th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:first-child {
+    border-top:none;
+}
+
+tr:last-child {
+    border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+    background:#EBEBEB;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+}
+
+td {
+    background:#FFFFFF;
+    padding:20px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}
+
+/* --------------------- CART --------------------- */
+
+
+/* -------------------- FOOTER -------------------- */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    overflow:hidden;
+    padding: 1% 0 1% 0;
+    color: floralwhite;
+    background-color: #B23E3E;
+    text-align:center;
+}
+/* -------------------- FOOTER -------------------- */

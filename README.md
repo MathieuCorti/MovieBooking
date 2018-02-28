@@ -1,5 +1,5 @@
 ### MovieBooking
-Simple movie booking website for school project.
+Web - html/css/php/JS - Simple movie booking website for school project.
 
 ## Home page
 ![Home screen](screenshots/home.png)
